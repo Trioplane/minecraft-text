@@ -1,14 +1,12 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="index.css">
-    <script src="minecraft-text.js" defer></script>
-    <title>minecraft-text</title>
-</head>
-<body>
-    <div>
+# <minecraft-text> Web Component
+The goal of this project is to make Raw JSON Text Format (Java Edition) easily usable via a web component.
+
+## Usage:
+`<minecraft-text>Put Raw JSON Text Here</minecraft-text>`
+
+## Example:
+```html
+<div>
         <minecraft-text>{"text":"This is a testing playground to test cases if they work or not","underlined":true}</minecraft-text>
     </div>
     <div>
@@ -24,5 +22,6 @@
         <minecraft-text>{"text":"Styling preservation:","color":"gray"}</minecraft-text>
         <minecraft-text>[{"color":"red"},{"text":"this should be red ","bold":"true"},{"text":"this should be aqua and bold ","color":"aqua"},{"text":"should be black and italic but not bold, next message should be obfuscated ","color":"black","italic":true,"bold":false},{"text":"abcdabcdabcd","obfuscated":true}]</minecraft-text>
     </div>
-</body>
-</html>
+```
+
+![Showing test cases](screenshots/image.png)
