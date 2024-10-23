@@ -142,6 +142,7 @@ class MinecraftText extends HTMLElement {
 
     // Start the recursive process with the main text object
     processText(this.text);
+    this.shadowRoot.appendChild(document.createElement("br"));
   }
 
   connectedCallback() {
