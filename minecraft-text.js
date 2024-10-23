@@ -2,7 +2,7 @@ class MinecraftText extends HTMLElement {
   constructor() {
     super();
     this.defaultStyle = {
-      color: "black",
+      color: "white",
       bold: false,
       italic: false,
       underlined: false,
