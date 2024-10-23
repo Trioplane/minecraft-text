@@ -92,7 +92,6 @@ class MinecraftText extends HTMLElement {
     } else if (typeof text == "object") temp = { ...text };
 
     this.text = temp;
-    console.log(temp);
   }
 
   generateRandomString(length) {
