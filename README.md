@@ -1,4 +1,4 @@
-# <minecraft-text> Web Component
+# \<minecraft-text> Web Component
 The goal of this project is to make Raw JSON Text Format (Java Edition) easily usable via a web component.
 
 ## Usage:
