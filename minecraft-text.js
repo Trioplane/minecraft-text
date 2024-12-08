@@ -122,8 +122,8 @@ class MinecraftText extends HTMLElement {
     const processText = (text) => {
       let span = document.createElement("span");
 
-      this.currentText = { ...text };
-      span.textContent = this.currentText.text;
+      this.currentText = typeof text == "string" ? text : { ...text };
+      span.textContent = typeof text == "string" ? this.currentText : this.currentText.text;
 
       this.updateLastStyles();
       this.applyStyles(span);
